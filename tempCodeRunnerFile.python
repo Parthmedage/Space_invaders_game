@@ -1,0 +1,17 @@
+class Laptop:
+    def __init__(self, brand, ram):
+        self.brand = brand
+        self.ram = ram
+
+    def display_info(self):
+        print(f"Laptop Brand: {self.brand}")
+        print(f"Laptop RAM: {self.ram} GB")
+
+
+# Example usage
+laptop1 = Laptop("Dell", 8)
+laptop2 = Laptop("HP", 16)
+
+laptop1.display_info()
+print()
+laptop2.display_info()
